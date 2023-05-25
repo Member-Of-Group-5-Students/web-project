@@ -1,0 +1,248 @@
+/* to remove default padding and margin */
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+/* header start */
+header{
+    background-color: navy;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+/* to minimize logo width */
+.logo{
+    width: 30px;
+    height: auto;
+}
+.logol{
+    width: 24px;
+}
+/* for button orange and hover black */
+.fa-list{
+    color: orange;
+}
+.fa-list:hover{
+    color: black;
+}
+/* to give width to dtu logo */
+.dtulogo{
+    width: 80px;
+}
+/* width for location logo in the header section */
+.loca{
+    width: 15px;
+}
+/* to center header */
+.first{
+    padding-left: 75px;
+}
+.fr{
+    padding-left: 25px;
+}
+/* To enter background image and to decorate the Slogan */
+.bg{
+    background-image: url(../images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 640px;
+    width: 100%;
+    color:orange;
+    text-align: center;
+}
+/* to equally divide the header space when in medium device
+  or to give space between tn the header  */
+@media(min-width:720px){
+    .pr{
+        margin-right: 480px;
+    }
+    .prnav{
+        margin-right: 140px;
+    }
+}
+@media(min-width:820px){
+    .not{
+        display: none;
+    }
+    .showflex{
+        display: block;
+    }
+    .show{
+        width: 220px;
+    }
+    .pop{
+        height: 190px;
+    }
+}
+
+@media(min-width:1024px){
+    .not{
+        display: none;
+    }
+    .showflex{
+        display: block;
+    }
+    .show{
+        width: 300px;
+    }
+    .pop{
+        height: 240px;
+    }
+    .right{
+        font-size: 12px;
+    }
+    .floc{
+        font-size: 13px;
+    }
+    .pr{
+        margin-right: 350px;
+    }
+    .prnav{
+        margin-right: 50px;
+    }
+}
+/* to remove underline from anchor tag */
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+/* border radius */
+input{
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+select{
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+textarea{
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+
+
+/* End of Header */
+
+/* Body Comments */
+
+
+.bg-text{
+    margin-top: 100px;
+}
+.headings{
+    color:steelblue;
+}
+
+/* welcome text */
+.welcome{
+    font-family: cursive;
+    color: sandybrown;
+}
+.contact{
+    background-color:slategrey;
+}
+/* our team */
+.our{
+    width: 365px;
+}
+.pop{
+    height: 310px;
+    margin-bottom: 75px;
+}
+
+.prnav{
+    margin-right: 140px;
+}
+/* this is for ipad Air */
+.showflex{
+    display: none;
+}
+/* Apply part */
+.floatright{
+    float: center;
+    padding-left: 600px;
+}
+.bg-shro{
+    background-color: rgb(238, 238, 238);
+}
+/* for buttons color */
+.bt-blue{
+    background-color: rgb(5, 119, 213);
+    width: 100px;
+    color: #fff;
+}
+
+/* contact */
+.inputs{
+    width: 330px;
+    height: 50px;
+}
+.message{
+    height: 100px;
+}
+.centerr{
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    background-color: orange;
+}
+.centerr:hover,
+.bt-blue:hover,
+.submit:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/* footer */
+footer{
+    background-color: rgb(6, 33, 53);
+    color: #fff;
+}
+.foot{
+    border-bottom: 3px solid orange;
+    border-radius: 5px;
+}
+.map{
+    width: 250px;
+    height: 100px;
+}
+.news{
+    width: 230px;
+}
+.submit{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+}
+.right{
+    font-size: 14px;
+}
+.flag{
+    width: 40px;
+    height: 40px;
+}
+
+@media(min-width:1280px){
+    .floc{
+        font-size: 14px;
+    }
+    .pr{
+        margin-right: 480px;
+    }
+    .prnav{
+        margin-right: 130px;
+    }
+}
+button{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
